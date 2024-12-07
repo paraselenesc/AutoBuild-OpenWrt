@@ -12,6 +12,8 @@ on:
   repository_dispatch:
   workflow_dispatch:
 
+runs-on: self-hosted
+
 jobs:
   build:
     runs-on: ubuntu-latest
